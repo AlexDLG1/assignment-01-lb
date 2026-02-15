@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+# Load Balancer (Round Robin) - Assignment 01
+
+## Diagrama de la infraestructura
+
+```text
+>>>>>>> f3908aa (Create README.md)
 Cliente/Navegador
       |
       v
@@ -11,6 +19,7 @@ Cliente/Navegador
 |  web1   |   |  web2   |
 |  :80    |   |  :80    |
 +---------+   +---------+
+<<<<<<< HEAD
 
 
 
@@ -48,3 +57,5 @@ Salida (ejemplo real):
 
 ## Notas
 - Se utilizó el puerto 8081 porque el 8080 estaba ocupado.
+=======
+>>>>>>> f3908aa (Create README.md)
