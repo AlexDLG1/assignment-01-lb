@@ -16,3 +16,13 @@ Cliente/Navegador
 |  web1   |   |  web2   |
 |  :80    |   |  :80    |
 +---------+   +---------+
+
+
+
+## Cómo ejecutar la infraestructura
+
+```bash
+docker compose up -d --force-recreate
+Para detener:
+
+docker compose down
