@@ -43,3 +43,8 @@ Salida (ejemplo real):
 <h1>Hola mundo desde server 2</h1>
 <h1>Hola mundo desde server 1</h1>
 <h1>Hola mundo desde server 2</h1>
+
+
+
+## Notas
+- Se utilizó el puerto 8081 porque el 8080 estaba ocupado.
