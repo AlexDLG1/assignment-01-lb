@@ -45,4 +45,5 @@ Salida (ejemplo real):
 <h1>Hola mundo desde server 1</h1>
 <h1>Hola mundo desde server 2</h1>
 Notas
+Si otra persona quiere probar el proyecto, debe clonarlo y ejecutarlo en su máquina
 Se utilizó el puerto 8081 porque el 8080 estaba ocupado.
