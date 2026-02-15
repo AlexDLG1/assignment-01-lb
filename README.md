@@ -17,16 +17,18 @@ Cliente/Navegador
 |  :80    |   |  :80    |
 +---------+   +---------+
 Cómo ejecutar la infraestructura
-Dentro del proyecto:
+Clonar el repositorio
+git clone https://github.com/AlexDLG1/assignment-01-lb.git
+cd assignment-01-lb
 
+2) Ejecutar la infraestructura
 docker compose up -d --force-recreate
-Para detener:
 
-docker compose down
-URL del balanceador
-http://localhost:8081
+3) Abrir el balanceador
 
-Evidencia Round Robin (10 requests)
+URL: http://localhost:8081
+
+4) Evidencia Round Robin (10 request)
 Comando:
 
 1..10 | % { curl.exe -s http://localhost:8081 | findstr "Hola mundo" }
